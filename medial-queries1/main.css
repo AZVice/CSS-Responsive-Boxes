@@ -1,3 +1,45 @@
 body {
   background: blanchedalmond;
+  margin: 0;
+}
+
+
+.container{
+ 
+  margin:20px;
+  height: 100vh;
+  display:flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+}
+
+div{
+  text-align: center;
+
+}
+
+.a{
+  flex-grow: 1;
+  border: 1px solid black
+}
+
+.b{
+  flex-grow: 4;
+  margin: 40px 0px 40px 0px;
+  border: 1px solid black
+
+}
+
+.c{
+  flex-grow: 1;
+  border: 1px solid black
+}
+
+
+@media screen and (min-width: 600px) {
+
+  .a {
+      font-size: 10em;
+  }
 }
